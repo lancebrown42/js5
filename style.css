@@ -1,0 +1,24 @@
+
+h1{
+	text-align: center;
+}
+body{
+	position: relative;
+	text-align: center;
+}
+div.mainText {
+	font-size: 15px;
+	display: inline-block;
+	text-align: left;
+	width: 75%;
+	position: relative;
+
+}
+.otherStuff p{
+	font-size: 50px;
+}
+textarea {
+	/*display: none;*/
+	width: 100%;
+
+}
