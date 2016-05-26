@@ -3,17 +3,13 @@ var food = document.querySelector('.food p')
 var hobby = document.querySelector('.hobby p')
 var like = document.querySelector('.like p')
 var dislike = document.querySelector('.dislike p')
-// var nameInput = document.getElementsByName('nameInput')
-// var foodInput = document.getElementsByName('foodInput')
-// var hobbyInput = document.getElementsByName('hobbyInput')
-// var likeInput = document.getElementsByName('likeInput')
-// var dislikeInput = document.getElementsByName('dislikeInput')
+
 function makeInput(text){
 	// input.style.height = getHeight(text)+'px'
 	return function() {
-		console.log(text)
+		// console.log(text)
 		var type = text.tagName
-		console.log(type)
+		// console.log(type)
 		text.removeEventListener('click',makeInput(text))
 		// var boxHeight = getHeight(text)
 		text.innerHTML = '<input type = \'text\' name = \''+text+'Input\'></input>'
